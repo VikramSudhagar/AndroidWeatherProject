@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
 
     private static final String Seven_Day_API = "https://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&units=metric&exclude={hourly,minutely}&appid=d71211e60444c33c17cbbd0d36a1f86d";
-//    private static final String Seven_Day_API = "https://api.openweathermap.org/data/2.5/forecast?q=%s&units=metric&APPID=d71211e60444c33c17cbbd0d36a1f86d&cnt=7";
+
     EditText cityText;
     TextView temperatureText;
     TextView responseText;
@@ -60,8 +60,6 @@ public class MainActivity extends AppCompatActivity {
     Geocoder geocoder;
     Weather[] myDataset;
     MyAdapter mAdapter;
-
-
 
 
     @Override
