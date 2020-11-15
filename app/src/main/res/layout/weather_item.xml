@@ -50,7 +50,7 @@
 
         <TextView
             android:id="@+id/temperature"
-            android:layout_width="43dp"
+            android:layout_width="55dp"
             android:layout_height="18dp"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
