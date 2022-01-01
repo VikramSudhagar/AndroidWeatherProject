@@ -1,4 +1,4 @@
-package com.example.weatherapp;
+package com.example.weatherapp.model;
 
 
 public class Weather {
@@ -9,7 +9,6 @@ public class Weather {
     private String temperature;
 
     public Weather(String date, String icon, String description, String temperature) {
-
         this.date = date;
         this.imageUrl = icon;
         this.description = description;

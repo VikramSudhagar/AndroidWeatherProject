@@ -1,4 +1,4 @@
-package com.example.weatherapp;
+package com.example.weatherapp.view;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.weatherapp.R;
+import com.example.weatherapp.model.Weather;
 import com.squareup.picasso.Picasso;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
@@ -19,11 +21,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         this.mDataset = mDataset;
     }
 
-
-
-//    public MyAdapter(Weather[] myDataset) {
-//        mDataset = myDataset;
-//    }
 
     @NonNull
     @Override
